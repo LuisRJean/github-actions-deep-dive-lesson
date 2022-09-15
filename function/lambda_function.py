@@ -2,6 +2,7 @@ from github import Github
 import json
 import os
 import boto3
+import base64
 
 def lambda_handler(event, context):
     """Lambda function wrapper
