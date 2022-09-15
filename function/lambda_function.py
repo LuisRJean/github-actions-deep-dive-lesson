@@ -1,4 +1,6 @@
 from github import Github
+import json
+import os
 
 def lambda_handler(event, context):
     """Lambda function wrapper
