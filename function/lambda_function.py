@@ -17,3 +17,12 @@ def lambda_handler(event, context):
     else:
 
         raise
+
+def main():
+    """Main function
+    Returns:
+        string: greeting response
+    """
+    print('Starting main\n---------------------------------------------')
+
+    return "Hello World"
