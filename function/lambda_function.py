@@ -12,7 +12,7 @@ def lambda_handler(event, context):
 
     if event["input"] == "Hello":
 
-        return "World"
+        return "World World World"
 
     else:
 
